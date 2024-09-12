@@ -14,6 +14,11 @@
         {
             return num1 / num2;
         }
+        //added in local repo => branch feature
+        public static int subtract(int num1,int num2)
+        {
+            return num1 - num2;
+        }
         static void Main(string[] args)
         {
             int result=sum(10, 20);

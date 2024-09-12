@@ -10,6 +10,10 @@
         {
             return num1 * num2;
         }
+        public double division(int num1,int num2)
+        {
+            return num1 / num2;
+        }
         static void Main(string[] args)
         {
             int result=sum(10, 20);
